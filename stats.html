@@ -446,20 +446,6 @@
                 Galaxy Server administration
             </a>
 </td>
-        <td><a href="/training-material//topics/admin/tutorials/monitoring/tutorial.html">
-            Galaxy Monitoring with Telegraf and Grafana
-            </a></td>
-      </tr>
-    
-            
-            
-      <tr>
-        <td>Mar 7, 2022</td>
-        <td style="text-align:right">
-            <a href="/training-material/topics/admin">
-                Galaxy Server administration
-            </a>
-</td>
         <td><a href="/training-material//topics/admin/tutorials/tiaas/tutorial.html">
             Training Infrastructure as a Service (TIaaS)
             </a></td>
@@ -474,8 +460,8 @@
                 Galaxy Server administration
             </a>
 </td>
-        <td><a href="/training-material//topics/admin/tutorials/gxadmin/tutorial.html">
-            Galaxy Monitoring with gxadmin
+        <td><a href="/training-material//topics/admin/tutorials/monitoring/tutorial.html">
+            Galaxy Monitoring with Telegraf and Grafana
             </a></td>
       </tr>
     
@@ -502,6 +488,20 @@
                 Galaxy Server administration
             </a>
 </td>
+        <td><a href="/training-material//topics/admin/tutorials/gxadmin/tutorial.html">
+            Galaxy Monitoring with gxadmin
+            </a></td>
+      </tr>
+    
+            
+            
+      <tr>
+        <td>Mar 7, 2022</td>
+        <td style="text-align:right">
+            <a href="/training-material/topics/admin">
+                Galaxy Server administration
+            </a>
+</td>
         <td><a href="/training-material//topics/admin/tutorials/reports/tutorial.html">
             Galaxy Monitoring with Reports
             </a></td>
@@ -516,8 +516,8 @@
                 Galaxy Server administration
             </a>
 </td>
-        <td><a href="/training-material//topics/admin/tutorials/cvmfs/tutorial.html">
-            Reference Data with CVMFS
+        <td><a href="/training-material//topics/admin/tutorials/data-library/tutorial.html">
+            Data Libraries
             </a></td>
       </tr>
     
@@ -602,8 +602,8 @@ var tutorialsBar = new Chart(tutoBar, {
 // Chart displaying number of tutorials per topic
 var tutoBarTechnical = document.getElementById('tutorialsBarTechnical');
 
-var data_tutos = [21,15,6,21,40,14];
-var labels_topics = ["Using Galaxy and Managing your Data","Foundations of Data Science","Teaching and Hosting Galaxy training","Development in Galaxy","Galaxy Server administration","Contributing to the Galaxy Training Material"];
+var data_tutos = [21,15,21,40,14,6];
+var labels_topics = ["Development in Galaxy","Foundations of Data Science","Using Galaxy and Managing your Data","Galaxy Server administration","Contributing to the Galaxy Training Material","Teaching and Hosting Galaxy training"];
 
 var tutorialsBar = new Chart(tutoBarTechnical, {
   type: 'horizontalBar',
